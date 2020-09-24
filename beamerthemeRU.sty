@@ -179,10 +179,11 @@
 
 
 %% Official colours:
-\definecolor{uibred}  {HTML}{db3f3d}
-\definecolor{uibblue} {HTML}{4ea0b7}
-\definecolor{uibgreen}{HTML}{789a5b}
-\definecolor{uibgray} {HTML}{d0cac2}
+% Changed to RU colors.
+\definecolor{uibred}  {HTML}{e3000b}  % ``Red impact''
+\definecolor{uibblue} {HTML}{be311a}  % "Berry", a red/brown color
+\definecolor{uibgreen}{HTML}{ff424b}  % Poppy, a light pink
+\definecolor{uibgray} {HTML}{eeeeee}
 \definecolor{uiblink} {HTML}{00769E}
 
 
@@ -216,7 +217,7 @@
 \setbeamercolor{block title alerted}{fg = white,
                                      bg = uibblue}
 \setbeamercolor{block body alerted} {bg = uibgray}
-\setbeamercolor{alerted text} {fg = uibblue}
+\setbeamercolor{alerted text} {fg = uibred}
 \setbeamercolor{footnote mark}{fg = uibred}
 \setbeamercolor{section in head/foot}{fg = white,
                                       bg = uibred}
@@ -270,7 +271,7 @@
             \insertauthor
             \vfill
             \hfill
-            \includegraphics[scale = 0.4]{UiB-images/UiB-logo-\UiBlang}
+            \includegraphics[scale = 0.5]{RU-images/rulogo}
         \end{minipage}
     \end{beamercolorbox}
     \vspace*{-1.3em}
@@ -279,7 +280,7 @@
 
 \newcommand{\TitlePage}
 {{
-    \setbeamercolor{background canvas}{bg = uibgray}
+    \setbeamercolor{background canvas}{bg = white}
     \begin{frame}[b, plain, noframenumbering]
         \titlepage
     \end{frame}
@@ -356,10 +357,9 @@
 {
     \logo
     {
-        \includegraphics[height = 0.1\paperheight]{UiB-images/UiB-emblem}
+        \includegraphics[height = 0.1\paperheight]{RU-images/dis}
     }
 }
-\showlogo
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

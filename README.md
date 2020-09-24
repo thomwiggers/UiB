@@ -1,7 +1,5 @@
-# UiB
-Beamer theme for the University of Bergen
-
-Available on [Overleaf](https://www.overleaf.com/latex/templates/uib-beamer-theme/ddsnzprthmfv).
+# RU
+Beamer theme for Radboud University. Based on [UiB](https://github.com/martinhelso/UiB) by Martin Helsø.
 
 ![Image of first slide](https://i.imgur.com/PFPWBvN.png)
 
@@ -30,7 +28,7 @@ like the ones used in the `enumerate` environment.
 ## Options
 Options are given as
 ```LaTeX
-\usetheme[option]{UiB}
+\usetheme[option]{RU}
 ```
 
 ### Font
@@ -79,7 +77,7 @@ The following environments are predefined by `beamer`:
 * `lemma`
 * `theorem`
 
-In addition, `UiB` defines these environments:
+In addition, `RU` defines these environments:
 * `assumption`
 * `axiom`
 * `calculation`
