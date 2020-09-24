@@ -1,7 +1,7 @@
 # RU
 Beamer theme for Radboud University. Based on [UiB](https://github.com/martinhelso/UiB) by Martin Helsø.
 
-![Image of first slide](https://i.imgur.com/PFPWBvN.png)
+![Image of first slide](example.png)
 
 ## Logo
 The logo in the lower right corner can be removed from a specific `frame`
